@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\migrations\\20260103081223_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\migrations\\20260103081223_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\migrations\\20251224013453_initialidentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\migrations\\20251224013453_initialidentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\migrations\\20260103070901_kakarot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\migrations\\20260103070901_kakarot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 859,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260103081223_update-database.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103081223_update-database.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103081223_update-database.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103081223_update-database.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103081223_update-database.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:12:23.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260103070901_kakarot.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103070901_kakarot.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103070901_kakarot.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103070901_kakarot.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103070901_kakarot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T07:09:01.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "2280602494_DuongCongPhuoc_Mobile.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T03:28:19.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Models\\RegistrationModel.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Models\\RegistrationModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Models\\RegistrationModel.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Models\\RegistrationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T01:40:25.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Models\\LoginModel.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T01:40:16.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T01:38:44.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251224013453_InitialIdentityModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20251224013453_InitialIdentityModel.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20251224013453_InitialIdentityModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20251224013453_InitialIdentityModel.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20251224013453_InitialIdentityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T01:34:53.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Program.cs",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Program.cs",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Program.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T01:33:05.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\appsettings.json",
+              "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\appsettings.json",
+              "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-24T01:47:07.735Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 249,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

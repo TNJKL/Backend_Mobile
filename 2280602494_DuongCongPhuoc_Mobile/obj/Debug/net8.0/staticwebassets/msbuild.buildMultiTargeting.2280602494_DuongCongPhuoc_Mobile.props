@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\2280602494_DuongCongPhuoc_Mobile.props" />
+</Project>

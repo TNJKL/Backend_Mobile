@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/2280602494_DuongCongPhuoc_Mobile/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2663"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00227sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 Jan 2026 06:34:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/2280602494_DuongCongPhuoc_Mobile/index.qm2zisgwyh.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qm2zisgwyh"},{"Name":"integrity","Value":"sha256-7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM="},{"Name":"label","Value":"_content/2280602494_DuongCongPhuoc_Mobile/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2663"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00227sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 Jan 2026 06:34:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

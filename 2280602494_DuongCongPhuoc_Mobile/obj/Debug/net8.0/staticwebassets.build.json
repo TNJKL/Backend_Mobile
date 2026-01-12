@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "K8RGplE6CZLaeNUG+dNmF7ssFdowjxREhX1AV8Tq1qY=",
+  "Source": "2280602494_DuongCongPhuoc_Mobile",
+  "BasePath": "_content/2280602494_DuongCongPhuoc_Mobile",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "2280602494_DuongCongPhuoc_Mobile\\wwwroot",
+      "Source": "2280602494_DuongCongPhuoc_Mobile",
+      "ContentRoot": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\wwwroot\\",
+      "BasePath": "_content/2280602494_DuongCongPhuoc_Mobile",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\wwwroot\\index.html",
+      "SourceId": "2280602494_DuongCongPhuoc_Mobile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\wwwroot\\",
+      "BasePath": "_content/2280602494_DuongCongPhuoc_Mobile",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qm2zisgwyh",
+      "Integrity": "7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 Jan 2026 06:34:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM="
+        }
+      ]
+    },
+    {
+      "Route": "index.qm2zisgwyh.html",
+      "AssetFile": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 Jan 2026 06:34:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qm2zisgwyh"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7sUw8I7RN/m1JJXg6uTbgfdbTIfMnZqKoiByKiYAFbM="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+[
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/Authenticate/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AuthenticateController",
+    "Method": "Register",
+    "RelativePath": "api/Authenticate/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.RegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
+    "Method": "GetCategories",
+    "RelativePath": "api/CategoryApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
+    "Method": "AddCategory",
+    "RelativePath": "api/CategoryApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/CategoryApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/CategoryApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/CategoryApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
+    "Method": "GetProducts",
+    "RelativePath": "api/ProductApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
+    "Method": "AddProduct",
+    "RelativePath": "api/ProductApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
+    "Method": "GetProductById",
+    "RelativePath": "api/ProductApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/ProductApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/ProductApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
+    "Method": "SearchProductsByName",
+    "RelativePath": "api/ProductApi/search/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.WeatherForecast, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.2280602494_DuongCongPhuoc_Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.2280602494_DuongCongPhuoc_Mobile.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.2280602494_DuongCongPhuoc_Mobile.props",
+      "PackagePath": "build\\2280602494_DuongCongPhuoc_Mobile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.2280602494_DuongCongPhuoc_Mobile.props",
+      "PackagePath": "buildMultiTargeting\\2280602494_DuongCongPhuoc_Mobile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.2280602494_DuongCongPhuoc_Mobile.props",
+      "PackagePath": "buildTransitive\\2280602494_DuongCongPhuoc_Mobile.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
