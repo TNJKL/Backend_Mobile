@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\migrations\\20260103081223_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\migrations\\20260103081223_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\migrations\\20260103081223_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|solutionrelative:2280602494_duongcongphuoc_mobile\\migrations\\20260103081223_update-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BED748E6-615E-493F-8017-E04A70F17F6F}|2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile.csproj|c:\\users\\asus\\documents\\baitapfb\\2280602494_duongcongphuoc_mobile\\2280602494_duongcongphuoc_mobile\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 859,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "20260103081223_update-database.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103081223_update-database.cs",
               "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Migrations\\20260103081223_update-database.cs",
@@ -139,15 +139,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Program.cs",
               "RelativeDocumentMoniker": "2280602494_DuongCongPhuoc_Mobile\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\BAITAPFB\\2280602494_DuongCongPhuoc_Mobile\\2280602494_DuongCongPhuoc_Mobile\\Program.cs",
               "RelativeToolTip": "2280602494_DuongCongPhuoc_Mobile\\Program.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T01:33:05.014Z"
+              "WhenOpened": "2025-12-24T01:33:05.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

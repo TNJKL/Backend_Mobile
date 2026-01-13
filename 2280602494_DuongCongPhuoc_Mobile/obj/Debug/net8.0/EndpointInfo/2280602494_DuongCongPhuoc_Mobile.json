@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "2280602494_DuongCongPhuoc_Mobile",
-    "version": "1.0"
+    "title": "2280602494_DuongCongPhuoc_Mobile API",
+    "version": "v1"
   },
   "paths": {
     "/api/AdminApi/DashboardStats": {
@@ -4472,6 +4472,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Nhập theo format: Bearer {token}",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
