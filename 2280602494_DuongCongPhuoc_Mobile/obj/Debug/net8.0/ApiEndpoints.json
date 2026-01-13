@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AuthenticateController",
+    "Method": "LoginWithGoogle",
+    "RelativePath": "api/Authenticate/login-google",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.GoogleLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AuthenticateController",
     "Method": "Register",
     "RelativePath": "api/Authenticate/register",
     "HttpMethod": "POST",
@@ -32,190 +48,22 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
-    "Method": "GetCategories",
-    "RelativePath": "api/CategoryApi",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
-    "Method": "AddCategory",
-    "RelativePath": "api/CategoryApi",
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.BudgetApiController",
+    "Method": "PostBudget",
+    "RelativePath": "api/BudgetApi",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Category",
+        "Name": "budget",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Budget",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
-    "Method": "GetCategoryById",
-    "RelativePath": "api/CategoryApi/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
-    "Method": "UpdateCategory",
-    "RelativePath": "api/CategoryApi/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "category",
-        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Category",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.CategoryApiController",
-    "Method": "DeleteCategory",
-    "RelativePath": "api/CategoryApi/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
-    "Method": "GetProducts",
-    "RelativePath": "api/ProductApi",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
-    "Method": "AddProduct",
-    "RelativePath": "api/ProductApi",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "product",
-        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Product",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
-    "Method": "GetProductById",
-    "RelativePath": "api/ProductApi/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
-    "Method": "UpdateProduct",
-    "RelativePath": "api/ProductApi/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "product",
-        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Product",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
-    "Method": "DeleteProduct",
-    "RelativePath": "api/ProductApi/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ProductApiController",
-    "Method": "SearchProductsByName",
-    "RelativePath": "api/ProductApi/search/{name}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.WeatherForecast, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Budget",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -223,7 +71,1788 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.BudgetApiController",
+    "Method": "GetBudget",
+    "RelativePath": "api/BudgetApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Budget",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.BudgetApiController",
+    "Method": "PutBudget",
+    "RelativePath": "api/BudgetApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "budget",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Budget",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.BudgetApiController",
+    "Method": "DeleteBudget",
+    "RelativePath": "api/BudgetApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.BudgetApiController",
+    "Method": "GetBudgetsByEventId",
+    "RelativePath": "api/BudgetApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.Budget, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ContractController",
+    "Method": "GetMilestones",
+    "RelativePath": "api/Contract/{contractId}/milestones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contractId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.PaymentMilestone, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ContractController",
+    "Method": "GetContractsByEvent",
+    "RelativePath": "api/Contract/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ContractController",
+    "Method": "CreateMilestone",
+    "RelativePath": "api/Contract/milestone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "milestone",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.PaymentMilestone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.PaymentMilestone",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ContractController",
+    "Method": "DeleteMilestone",
+    "RelativePath": "api/Contract/milestone/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ContractController",
+    "Method": "PayMilestone",
+    "RelativePath": "api/Contract/milestone/{id}/pay",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "GetEvents",
+    "RelativePath": "api/EventApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "AddEvent",
+    "RelativePath": "api/EventApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventItem",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Event",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "GetEventById",
+    "RelativePath": "api/EventApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "UpdateEvent",
+    "RelativePath": "api/EventApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "eventItem",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Event",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/EventApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "HideEvent",
+    "RelativePath": "api/EventApi/{id}/hide",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventApiController",
+    "Method": "GetMyEvents",
+    "RelativePath": "api/EventApi/my-events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventCategoryApiController",
+    "Method": "GetEventCategories",
+    "RelativePath": "api/EventCategoryApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventCategoryApiController",
+    "Method": "AddEventCategory",
+    "RelativePath": "api/EventCategoryApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventCategoryApiController",
+    "Method": "GetEventCategoryById",
+    "RelativePath": "api/EventCategoryApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventCategoryApiController",
+    "Method": "UpdateEventCategory",
+    "RelativePath": "api/EventCategoryApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventCategoryApiController",
+    "Method": "DeleteEventCategory",
+    "RelativePath": "api/EventCategoryApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventCategoryApiController",
+    "Method": "HideEventCategory",
+    "RelativePath": "api/EventCategoryApi/{id}/hide",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventTimelineApiController",
+    "Method": "CreateTimeline",
+    "RelativePath": "api/EventTimelineApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timeline",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventTimeline",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventTimeline",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventTimelineApiController",
+    "Method": "GetTimeline",
+    "RelativePath": "api/EventTimelineApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventTimeline",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventTimelineApiController",
+    "Method": "UpdateTimeline",
+    "RelativePath": "api/EventTimelineApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "timeline",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventTimeline",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventTimelineApiController",
+    "Method": "DeleteTimeline",
+    "RelativePath": "api/EventTimelineApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventTimelineApiController",
+    "Method": "GetTimelines",
+    "RelativePath": "api/EventTimelineApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.EventTimeline, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventTimelineApiController",
+    "Method": "CreateTemplate",
+    "RelativePath": "api/EventTimelineApi/template/{eventId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventVendorApiController",
+    "Method": "CreateEventVendor",
+    "RelativePath": "api/EventVendorApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventVendor",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventVendor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventVendor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventVendorApiController",
+    "Method": "UpdateEventVendor",
+    "RelativePath": "api/EventVendorApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "eventVendor",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.EventVendor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventVendorApiController",
+    "Method": "DeleteEventVendor",
+    "RelativePath": "api/EventVendorApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventVendorApiController",
+    "Method": "GetEventVendors",
+    "RelativePath": "api/EventVendorApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.EventVendor, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.EventVendorApiController",
+    "Method": "GetVendorContracts",
+    "RelativePath": "api/EventVendorApi/vendor/{vendorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.EventVendor, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ExpenseApiController",
+    "Method": "PostExpense",
+    "RelativePath": "api/ExpenseApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Expense",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ExpenseApiController",
+    "Method": "GetExpense",
+    "RelativePath": "api/ExpenseApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Expense",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ExpenseApiController",
+    "Method": "PutExpense",
+    "RelativePath": "api/ExpenseApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expense",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ExpenseApiController",
+    "Method": "DeleteExpense",
+    "RelativePath": "api/ExpenseApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ExpenseApiController",
+    "Method": "GetExpensesByEventId",
+    "RelativePath": "api/ExpenseApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.Expense, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GlobalMenuApiController",
+    "Method": "GetAll",
+    "RelativePath": "api/GlobalMenuApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GlobalMenuApiController",
+    "Method": "Create",
+    "RelativePath": "api/GlobalMenuApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.GlobalMenuItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GlobalMenuApiController",
+    "Method": "GetById",
+    "RelativePath": "api/GlobalMenuApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GlobalMenuApiController",
+    "Method": "Update",
+    "RelativePath": "api/GlobalMenuApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.GlobalMenuItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GlobalMenuApiController",
+    "Method": "Delete",
+    "RelativePath": "api/GlobalMenuApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GuestApiController",
+    "Method": "CreateGuest",
+    "RelativePath": "api/GuestApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guest",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Guest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Guest",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GuestApiController",
+    "Method": "GetGuest",
+    "RelativePath": "api/GuestApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Guest",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GuestApiController",
+    "Method": "UpdateGuest",
+    "RelativePath": "api/GuestApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "guest",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Guest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GuestApiController",
+    "Method": "DeleteGuest",
+    "RelativePath": "api/GuestApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GuestApiController",
+    "Method": "GetGuests",
+    "RelativePath": "api/GuestApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.Guest, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.GuestApiController",
+    "Method": "ImportGuests",
+    "RelativePath": "api/GuestApi/import/{eventId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "CreateMenu",
+    "RelativePath": "api/MenuApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Menu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "GetOrders",
+    "RelativePath": "api/MenuApi/{eventId}/orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/MenuApi/{eventId}/orders/{expenseId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController\u002BUpdateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/MenuApi/{eventId}/orders/{expenseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "PlaceOrder",
+    "RelativePath": "api/MenuApi/{eventId}/place-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController\u002BPlaceOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "GetMenuById",
+    "RelativePath": "api/MenuApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "UpdateMenu",
+    "RelativePath": "api/MenuApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "menu",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Menu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "DeleteMenu",
+    "RelativePath": "api/MenuApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "AddMenuItem",
+    "RelativePath": "api/MenuApi/{menuId}/items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.MenuItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "GetMenusByEvent",
+    "RelativePath": "api/MenuApi/by-event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "GetMenuItem",
+    "RelativePath": "api/MenuApi/items/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "UpdateMenuItem",
+    "RelativePath": "api/MenuApi/items/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.MenuItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.MenuApiController",
+    "Method": "DeleteMenuItem",
+    "RelativePath": "api/MenuApi/items/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "GetReminders",
+    "RelativePath": "api/ReminderApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "AddReminder",
+    "RelativePath": "api/ReminderApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reminder",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Reminder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "GetReminderById",
+    "RelativePath": "api/ReminderApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "UpdateReminder",
+    "RelativePath": "api/ReminderApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reminder",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Reminder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "DeleteReminder",
+    "RelativePath": "api/ReminderApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "GetRemindersByEventId",
+    "RelativePath": "api/ReminderApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
+    "Method": "GetPendingReminders",
+    "RelativePath": "api/ReminderApi/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ServicePackageController",
+    "Method": "GetServicePackages",
+    "RelativePath": "api/ServicePackage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.ServicePackage, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ServicePackageController",
+    "Method": "PostServicePackage",
+    "RelativePath": "api/ServicePackage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servicePackage",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.ServicePackage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.ServicePackage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ServicePackageController",
+    "Method": "GetServicePackage",
+    "RelativePath": "api/ServicePackage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.ServicePackage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ServicePackageController",
+    "Method": "PutServicePackage",
+    "RelativePath": "api/ServicePackage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "servicePackage",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.ServicePackage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ServicePackageController",
+    "Method": "DeleteServicePackage",
+    "RelativePath": "api/ServicePackage/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ServicePackageController",
+    "Method": "ApplyPackageToEvent",
+    "RelativePath": "api/ServicePackage/Apply/{packageId}/ToEvent/{eventId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.UserApiController",
+    "Method": "GetUsers",
+    "RelativePath": "api/UserApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.UserApiController",
+    "Method": "ToggleUserLock",
+    "RelativePath": "api/UserApi/{id}/lock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.UserApiController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/UserApi/{id}/role",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Controllers.UpdateRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.VendorApiController",
+    "Method": "GetVendors",
+    "RelativePath": "api/VendorApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.Vendor, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.VendorApiController",
+    "Method": "CreateVendor",
+    "RelativePath": "api/VendorApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendor",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Vendor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Vendor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.VendorApiController",
+    "Method": "GetVendor",
+    "RelativePath": "api/VendorApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Vendor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.VendorApiController",
+    "Method": "UpdateVendor",
+    "RelativePath": "api/VendorApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vendor",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.Vendor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.VendorApiController",
+    "Method": "DeleteVendor",
+    "RelativePath": "api/VendorApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "PostTask",
+    "RelativePath": "api/WeddingTaskApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.WeddingTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.WeddingTask",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "GetTask",
+    "RelativePath": "api/WeddingTaskApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.WeddingTask",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "PutTask",
+    "RelativePath": "api/WeddingTaskApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "task",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.WeddingTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/WeddingTaskApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "GetTasksByEventId",
+    "RelativePath": "api/WeddingTaskApi/event/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.WeddingTask, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "GetTaskStats",
+    "RelativePath": "api/WeddingTaskApi/stats/{eventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.WeddingTaskApiController",
+    "Method": "GenerateTemplateTasks",
+    "RelativePath": "api/WeddingTaskApi/template/{eventId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[_2280602494_DuongCongPhuoc_Mobile.Models.WeddingTask, 2280602494_DuongCongPhuoc_Mobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

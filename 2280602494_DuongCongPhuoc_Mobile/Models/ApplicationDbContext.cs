@@ -30,6 +30,7 @@ namespace _2280602494_DuongCongPhuoc_Mobile.Models
         public DbSet<ServicePackage> ServicePackages { get; set; }
         public DbSet<ServicePackageItem> ServicePackageItems { get; set; }
         public DbSet<PaymentMilestone> PaymentMilestones { get; set; }
+        public DbSet<ChatMessage> ChatMessages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -326,6 +327,19 @@ namespace _2280602494_DuongCongPhuoc_Mobile.Models
             builder.Entity<Expense>()
                 .HasIndex(ex => ex.EventId)
                 .HasDatabaseName("IX_Expenses_EventId");
+
+            // ========== CHAT MESSAGE CONFIGURATION ==========
+            builder.Entity<ChatMessage>()
+                .HasOne(m => m.Sender)
+                .WithMany()
+                .HasForeignKey(m => m.SenderId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<ChatMessage>()
+                .HasOne(m => m.Receiver)
+                .WithMany()
+                .HasForeignKey(m => m.ReceiverId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

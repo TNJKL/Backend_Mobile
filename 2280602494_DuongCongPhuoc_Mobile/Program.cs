@@ -1,5 +1,7 @@
 using _2280602494_DuongCongPhuoc_Mobile.Models;
 using _2280602494_DuongCongPhuoc_Mobile.Repositories;
+using _2280602494_DuongCongPhuoc_Mobile.Services;
+using _2280602494_DuongCongPhuoc_Mobile.Hubs;
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -35,6 +37,12 @@ builder.Services.AddScoped<IVendorRepository, VendorRepository>();
 builder.Services.AddScoped<IEventVendorRepository, EventVendorRepository>();
 builder.Services.AddScoped<IEventTimelineRepository, EventTimelineRepository>();
 builder.Services.AddScoped<IGuestRepository, GuestRepository>();
+
+// Register SMS/OTP Services
+builder.Services.AddSingleton<OTPService>();
+builder.Services.AddSingleton<SpeedSMSService>();
+builder.Services.AddScoped<VnPayLibrary>();
+builder.Services.AddSignalR();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -149,6 +157,7 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 
 app.MapControllers();
+app.MapHub<_2280602494_DuongCongPhuoc_Mobile.Hubs.ChatHub>("/chatHub");
 
 //Người dùng đã tự config Identity user nên bỏ phần này
 //app.MapIdentityApi<User>();

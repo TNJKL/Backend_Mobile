@@ -1,4 +1,5 @@
 using _2280602494_DuongCongPhuoc_Mobile.Models;
+using _2280602494_DuongCongPhuoc_Mobile.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -17,15 +18,61 @@ namespace _2280602494_DuongCongPhuoc_Mobile.Controllers
         private readonly UserManager<User> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _configuration;
+        private readonly OTPService _otpService;
+        private readonly SpeedSMSService _smsService;
 
         public AuthenticateController(
             UserManager<User> userManager,
             RoleManager<IdentityRole> roleManager,
-            IConfiguration configuration)
+            IConfiguration configuration,
+            OTPService otpService,
+            SpeedSMSService smsService)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _configuration = configuration;
+            _otpService = otpService;
+            _smsService = smsService;
+        }
+
+        [HttpPost("send-otp")]
+        public async Task<IActionResult> SendOTP([FromBody] SendOTPRequest request)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(request.Phone))
+                {
+                    return BadRequest(new { Status = false, Message = "Số điện thoại không được để trống" });
+                }
+
+                // Standardize Phone (add 84 prefix if needed, or keeping it simple per reference)
+                string phone = request.Phone.Trim();
+                // Reference logic for 84 prefix:
+                if (!phone.StartsWith("84") && phone.StartsWith("0"))
+                {
+                    phone = "84" + phone.Substring(1);
+                }
+
+                // Generate and Store OTP
+                string otp = _otpService.GenerateOTP();
+                _otpService.StoreOTP(phone, otp);
+
+                Console.WriteLine($"[SendOTP] Generated OTP {otp} for {phone}");
+
+                // Send SMS
+                var smsResult = await _smsService.SendSMSOTP(phone, otp);
+                
+                // For demo purposes, we log the result. 
+                // In production, you might parse smsResult to ensure success.
+                // Assuming success if no exception thrown for now, or check response.
+                 Console.WriteLine($"[SendOTP] SMS Response: {smsResult}");
+
+                return Ok(new { Status = true, Message = "OTP đã được gửi thành công" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Status = false, Message = $"Lỗi server: {ex.Message}" });
+            }
         }
 
         [HttpPost("register")]
@@ -33,6 +80,20 @@ namespace _2280602494_DuongCongPhuoc_Mobile.Controllers
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
 
+            // 1. Verify OTP
+            // Standardize phone in the same way
+            string phone = model.Phone.Trim();
+            if (!phone.StartsWith("84") && phone.StartsWith("0"))
+            {
+                phone = "84" + phone.Substring(1);
+            }
+
+            if (!_otpService.VerifyOTP(phone, model.OTP))
+            {
+                return BadRequest(new { Status = false, Message = "OTP không hợp lệ hoặc đã hết hạn" });
+            }
+
+            // 2. Proceed with Registration
             var userExists = await _userManager.FindByNameAsync(model.Username);
             if (userExists != null)
                 return StatusCode(StatusCodes.Status400BadRequest, new { Status = false, Message = "User already exists" });
@@ -41,12 +102,17 @@ namespace _2280602494_DuongCongPhuoc_Mobile.Controllers
             {
                 UserName = model.Username,
                 Email = model.Email,
-                Initials = model.Initials
+                Initials = model.Initials,
+                PhoneNumber = model.Phone // Save verified phone
             };
-             
+            
+            // Standard CreateAsync
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
                 return StatusCode(StatusCodes.Status500InternalServerError, new { Status = false, Message = "User creation failed" });
+
+            // Clear OTP after success
+            _otpService.ClearOTP(phone);
 
             // Assign Role if Provided, otherwise assign default "User" role
             if (!string.IsNullOrEmpty(model.Role))
