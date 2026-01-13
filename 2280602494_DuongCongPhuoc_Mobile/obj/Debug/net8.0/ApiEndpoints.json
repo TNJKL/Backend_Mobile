@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AdminApiController",
+    "Method": "GetDashboardStats",
+    "RelativePath": "api/AdminApi/DashboardStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AuthenticateController",
     "Method": "Login",
     "RelativePath": "api/Authenticate/login",
@@ -42,6 +52,22 @@
       {
         "Name": "model",
         "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.RegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.AuthenticateController",
+    "Method": "SendOTP",
+    "RelativePath": "api/Authenticate/send-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Models.SendOTPRequest",
         "IsRequired": true
       }
     ],
@@ -161,6 +187,42 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ChatApiController",
+    "Method": "GetSupportInfo",
+    "RelativePath": "api/ChatApi/GetSupportInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ChatApiController",
+    "Method": "GetHistory",
+    "RelativePath": "api/ChatApi/History/{otherUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otherUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ChatApiController",
+    "Method": "GetInbox",
+    "RelativePath": "api/ChatApi/Inbox",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ContractController",
@@ -1308,6 +1370,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.PaymentController",
+    "Method": "Callback",
+    "RelativePath": "api/Payment/Callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.PaymentController",
+    "Method": "CheckStatus",
+    "RelativePath": "api/Payment/CheckStatus/{txnRef}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "txnRef",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.PaymentController",
+    "Method": "CreatePaymentUrl",
+    "RelativePath": "api/Payment/CreatePaymentUrl",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "_2280602494_DuongCongPhuoc_Mobile.Controllers.PaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.PaymentController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Payment/History",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "_2280602494_DuongCongPhuoc_Mobile.Controllers.ReminderApiController",
     "Method": "GetReminders",
     "RelativePath": "api/ReminderApi",
@@ -1538,6 +1652,11 @@
         "Name": "eventId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "tableCount",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

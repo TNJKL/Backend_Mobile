@@ -176,7 +176,7 @@ namespace _2280602494_DuongCongPhuoc_Mobile.Controllers
             {
                 var settings = new GoogleJsonWebSignature.ValidationSettings()
                 {
-                    Audience = new List<string>() { "558602254684-49j936b38qirvgho596n3m05a675judq.apps.googleusercontent.com" }
+                    Audience = new List<string>() { "299592018613-rf44cmgf562gkrhhfkhopjmrkuep1en5.apps.googleusercontent.com" }
                 };
                 var payload = await GoogleJsonWebSignature.ValidateAsync(model.IdToken, settings);
 

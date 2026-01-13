@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2280602494_DuongCongPhuoc_Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f2b8657fbfa64e8629e62534d4620a82283b83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+402b1b84fd20e9c882f29b1a6836f91b3922e525")]
 [assembly: System.Reflection.AssemblyProductAttribute("2280602494_DuongCongPhuoc_Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2280602494_DuongCongPhuoc_Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
